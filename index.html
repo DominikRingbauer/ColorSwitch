@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Switch</title>
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="style.css">
+        <!--Google font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="buttons">
+            <button type="button" class="btn"  onclick="standard()">Default</button>
+            <button type="button" class="btn"  onclick="second()">2nd Color</button>
+            <button type="button" class="btn"  onclick="third()">3rd Color</button>
+            <button type="button" class="btn"  onclick="fourth()">4th Color</button>
+            <button type="button" class="btn"  onclick="fifth()">5th Color</button>
+            <button type="button" class="btn"  onclick="sixth()">6th Color</button>
+        </section>
+        <section id="content">
+            <div id="explanation">
+                <h1 id="heading">Color Switch</h1>
+                <p id="para1">Try the different color schemes by clicking on the buttons above or on the boxes below.</p>
+            </div>
+            <div id="boxes">
+                <div class="row">
+                    <div class="box box-left" onclick="standard()">
+                        <h3>Default</h3>
+                        <p>This is the standard scheme on this page. Really uncolorful and sad.</p>
+                    </div>
+                    <div class="box box-right" onclick="second()">
+                        <h3>2nd Scheme</h3>
+                        <p>When you click on this button the background-, and the font color is changing.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box box-left" onclick="third()">
+                        <h3>3rd Scheme</h3>
+                        <p>This scheme displays the colors beige, black-brown and lightbrown.</p>
+                    </div>
+                    <div class="box box-right" onclick="fourth()">
+                        <h3>4th Scheme</h3>
+                        <p>Dark pine green, orange and light peach appears when you click on the foudrth button.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box box-left" onclick="fifth()">
+                        <h3>5th Scheme</h3>
+                        <p>Change the colors to raspberry and blue tones.</p>
+                    </div>
+                    <div class="box box-right" onclick="sixth()">
+                        <h3>6th Scheme</h3>
+                        <p>Try the last color scheme on this page.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--JavaScript file-->
+        <script src="main.js"></script>
+    </body>
+</html>
