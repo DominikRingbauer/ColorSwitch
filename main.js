@@ -6,7 +6,7 @@ function standardScheme() {
     document.getElementById('content').style = 'background-color:lightgray; color:black';
     console.clear()
     console.log('default setting: black, gray and lightgray');
-    
+    document.getElementById('explain').textContent = 'Try the different color schemes by clicking on the buttons above or on the boxes below.'; 
 }
 
 function second() {
@@ -51,6 +51,7 @@ function sixth() {
 
 //six functions for changing the language
 const html = document.querySelector('html');
+const img = document.getElementById('pic');
 
 let standardLanguage = () => {
     //buttons
@@ -78,6 +79,9 @@ let standardLanguage = () => {
     document.getElementById('paraSix').textContent ='Try the last color scheme on this page.'
     //attribut lang in html-tag
     html.setAttribute('lang', 'en');
+    //attribut src iin img-tag
+    img.setAttribute('src', 'https://cdn.pixabay.com/photo/2017/02/06/15/09/america-flag-2043285_1280.png');
+
 }
 
 let german = () => {
@@ -106,6 +110,8 @@ let german = () => {
     document.getElementById('paraSix').textContent ='Probiere das letzte Farbschema aus.';;
     //attribut lang in html-tag
     html.setAttribute('lang', 'de');
+    //attribut src iin img-tag
+    img.setAttribute('src', 'https://cdn.pixabay.com/photo/2012/04/10/23/10/austria-26881_1280.png');
 }
 
 let french = () => {
@@ -134,6 +140,8 @@ let french = () => {
     document.getElementById('paraSix').textContent ='Essayez le dernier jeu de couleurs sur cette page.';
     //attribut lang in html-tag
     html.setAttribute('lang', 'fr');
+    //attribut src iin img-tag
+    img.setAttribute('src', 'https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295_1280.png');
 }
 
 let italian = () => {
@@ -163,6 +171,8 @@ let italian = () => {
     document.getElementById('paraSix').textContent ='Prova l\'ultima combinazione di colori su questa pagina.';
     //attribut lang in html-tag
     html.setAttribute('lang', 'it');
+    //attribut src iin img-tag
+    img.setAttribute('src', 'https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_1280.png');
 }
 
 let spanish = () => {
@@ -192,6 +202,8 @@ let spanish = () => {
     document.getElementById('paraSix').textContent ='Pruebe el último esquema de color de esta página.';
     //attribut lang in html-tag
     html.setAttribute('lang', 'es');
+    //attribut src iin img-tag
+    img.setAttribute('src', 'https://cdn.pixabay.com/photo/2013/07/13/14/17/spain-162428_1280.png');
 }
 
 let slovak = () => {
@@ -221,6 +233,8 @@ let slovak = () => {
     document.getElementById('paraSix').textContent ='Vyskúšajte poslednú farebnú schému na tejto stránke.';
     //attribut lang in html-tag
     html.setAttribute('lang', 'sk');
+    //attribut src iin img-tag
+    img.setAttribute('src', 'https://cdn.pixabay.com/photo/2012/04/10/23/09/slovakia-26875_1280.png');
 }
 
 
