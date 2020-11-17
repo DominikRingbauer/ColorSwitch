@@ -98,12 +98,12 @@ let german = () => {
     document.getElementById('headFive').textContent = '5. Schema';
     document.getElementById('headSix').textContent = '6. Schema';
     //paragraph
-    document.getElementById('paraOne').textContent ='Das ist das Standardschema auf dieser Seite. Sehr farblos und traurig.'
-    document.getElementById('paraTwo').textContent ='Wenn du auf diese Schaltfläche klickst, ändert sich der Hintergrund und die Schriftfarbe.'
-    document.getElementById('paraThree').textContent ='Dieses Schema zeigt die Farben Beige, Schwarzbraun und Hellbraun an.'
-    document.getElementById('paraFour').textContent ='Dunkles Piniengrün, Orange und heller Pfirsich werden angezeigt, wenn du auf die vierte Schaltfläche klickst.'
-    document.getElementById('paraFive').textContent ='Ändere die Farben zu Himbeere und Blautöne.'
-    document.getElementById('paraSix').textContent ='Probiere das letzte Farbschema aus.'
+    document.getElementById('paraOne').textContent ='Das ist das Standardschema auf dieser Seite. Sehr farblos und traurig.';
+    document.getElementById('paraTwo').textContent ='Wenn du auf diese Schaltfläche klickst, ändert sich der Hintergrund und die Schriftfarbe.';
+    document.getElementById('paraThree').textContent ='Dieses Schema zeigt die Farben Beige, Schwarzbraun und Hellbraun an.';
+    document.getElementById('paraFour').textContent ='Dunkles Piniengrün, Orange und heller Pfirsich werden angezeigt, wenn du auf die vierte Schaltfläche klickst.';
+    document.getElementById('paraFive').textContent ='Ändere die Farben zu Himbeere und Blautöne.';
+    document.getElementById('paraSix').textContent ='Probiere das letzte Farbschema aus.';;
     //attribut lang in html-tag
     html.setAttribute('lang', 'de');
 }
@@ -126,12 +126,12 @@ let french = () => {
     document.getElementById('headFive').textContent = '5e schème';
     document.getElementById('headSix').textContent = '6e schème';
     //paragraph
-    document.getElementById('paraOne').textContent ='C\'est le schéma standard sur cette page. Très incolore et triste.'
-    document.getElementById('paraTwo').textContent ='Lorsque vous cliquez sur ce bouton, l\'arrière-plan et la couleur de la police changent.'
-    document.getElementById('paraThree').textContent ='Ce schéma affiche les couleurs beige, brun noir et brun clair.'
-    document.getElementById('paraFour').textContent ='Le vert pin foncé, l\'orange et la pêche claire apparaissent lorsque vous cliquez sur le quatrième bouton.'
-    document.getElementById('paraFive').textContent ='Changez les couleurs en tons de framboise et de bleu.'
-    document.getElementById('paraSix').textContent ='Essayez le dernier jeu de couleurs sur cette page.'
+    document.getElementById('paraOne').textContent ='C\'est le schéma standard sur cette page. Très incolore et triste.';
+    document.getElementById('paraTwo').textContent ='Lorsque vous cliquez sur ce bouton, l\'arrière-plan et la couleur de la police changent.';
+    document.getElementById('paraThree').textContent ='Ce schéma affiche les couleurs beige, brun noir et brun clair.';
+    document.getElementById('paraFour').textContent ='Le vert pin foncé, l\'orange et la pêche claire apparaissent lorsque vous cliquez sur le quatrième bouton.';
+    document.getElementById('paraFive').textContent ='Changez les couleurs en de framboise et tons de bleu.';
+    document.getElementById('paraSix').textContent ='Essayez le dernier jeu de couleurs sur cette page.';
     //attribut lang in html-tag
     html.setAttribute('lang', 'fr');
 }
@@ -155,35 +155,43 @@ let italian = () => {
     document.getElementById('headFive').textContent = '5° schema';
     document.getElementById('headSix').textContent = '6° schema';
     //paragraph
-    document.getElementById('paraOne').textContent ='Questo è lo schema standard in questa pagina. Davvero incolore e triste.'
-    document.getElementById('paraTwo').textContent ='Quando fai clic su questo pulsante, lo sfondo e il colore del carattere cambiano.'
-    document.getElementById('paraThree').textContent ='Questo schema mostra i colori beige, marrone-nero e marrone chiaro.'
-    document.getElementById('paraFour').textContent ='Quando si fa clic sul pulsante in basso, vengono visualizzati il ​​verde pino scuro, l\'arancione e il pesca chiaro.'
-    document.getElementById('paraFive').textContent ='Cambia i colori in toni lampone e blu.'
-    document.getElementById('paraSix').textContent ='Prova l\'ultima combinazione di colori su questa pagina.'
+    document.getElementById('paraOne').textContent ='Questo è lo schema standard in questa pagina. Davvero incolore e triste.';
+    document.getElementById('paraTwo').textContent ='Quando fai clic su questo pulsante, lo sfondo e il colore del carattere cambiano.';
+    document.getElementById('paraThree').textContent ='Questo schema mostra i colori beige, marrone-nero e marrone chiaro.';
+    document.getElementById('paraFour').textContent ='Quando si fa clic sul pulsante in basso, vengono visualizzati il ​​verde pino scuro, l\'arancione e il pesca chiaro.';
+    document.getElementById('paraFive').textContent ='Cambia i colori in lampone e toni blu.';
+    document.getElementById('paraSix').textContent ='Prova l\'ultima combinazione di colori su questa pagina.';
     //attribut lang in html-tag
     html.setAttribute('lang', 'it');
 }
 
 let spanish = () => {
-    document.getElementById('explain').textContent = '';
+    //buttons
+    document.getElementsByClassName('btn')[0].textContent = 'Estándar';
+    document.getElementsByClassName('btn')[1].textContent = 'Alemán';
+    document.getElementsByClassName('btn')[2].textContent = 'Francés';
+    document.getElementsByClassName('btn')[3].textContent = 'Italiano';
+    document.getElementsByClassName('btn')[4].textContent = 'Español';
+    document.getElementsByClassName('btn')[5].textContent = 'Eslovaco';
+    //Explanation paragraph
+    document.getElementById('explain').textContent = 'Pruebe los diferentes esquemas de color haciendo clic en los botones de arriba o en los cuadros de abajo.';
 
     //headings
-    document.getElementById('headOne').textContent = 'Standard';
-    document.getElementById('headTwo').textContent = '2° schema';
-    document.getElementById('headThree').textContent = '3° schema';
-    document.getElementById('headFour').textContent = '4° schema';
-    document.getElementById('headFive').textContent = '5° schema';
-    document.getElementById('headSix').textContent = '6° schema';
+    document.getElementById('headOne').textContent = 'Estándar';
+    document.getElementById('headTwo').textContent = '2° esquema';
+    document.getElementById('headThree').textContent = '3° esquema';
+    document.getElementById('headFour').textContent = '4° esquema';
+    document.getElementById('headFive').textContent = '5° esquema';
+    document.getElementById('headSix').textContent = '6° esquema';
     //paragraph
-    document.getElementById('paraOne').textContent =''
-    document.getElementById('paraTwo').textContent =''
-    document.getElementById('paraThree').textContent =''
-    document.getElementById('paraFour').textContent =''
-    document.getElementById('paraFive').textContent =''
-    document.getElementById('paraSix').textContent =''
+    document.getElementById('paraOne').textContent ='Este es el esquema estándar en esta página. Realmente incoloro y triste.';
+    document.getElementById('paraTwo').textContent ='Al hacer clic en este botón, el fondo y el color de la fuente están cambiando.';
+    document.getElementById('paraThree').textContent ='Este esquema muestra los colores beige, negro-marrón y marrón claro.';
+    document.getElementById('paraFour').textContent ='Aparecen verde pino oscuro, naranja y melocotón claro al hacer clic en el botón cuarto.';
+    document.getElementById('paraFive').textContent ='Cambia los colores a frambuesa y tonos azul.';
+    document.getElementById('paraSix').textContent ='Pruebe el último esquema de color de esta página.';
     //attribut lang in html-tag
-    html.setAttribute('lang', 'de');
+    html.setAttribute('lang', 'es');
 }
 
 let slovak = () => {
@@ -197,12 +205,12 @@ let slovak = () => {
     document.getElementById('headFive').textContent = '5. Schema';
     document.getElementById('headSix').textContent = '6. Schema';
     //paragraph
-    document.getElementById('paraOne').textContent =''
-    document.getElementById('paraTwo').textContent =''
-    document.getElementById('paraThree').textContent =''
-    document.getElementById('paraFour').textContent =''
-    document.getElementById('paraFive').textContent =''
-    document.getElementById('paraSix').textContent =''
+    document.getElementById('paraOne').textContent ='';
+    document.getElementById('paraTwo').textContent ='';
+    document.getElementById('paraThree').textContent ='';
+    document.getElementById('paraFour').textContent ='';
+    document.getElementById('paraFive').textContent ='';
+    document.getElementById('paraSix').textContent ='';
     //attribut lang in html-tag
     html.setAttribute('lang', 'de');
 }
