@@ -111,13 +111,13 @@ let german = () => {
 let french = () => {
     //buttons
     document.getElementsByClassName('btn')[0].textContent = 'Défaut';
-    document.getElementsByClassName('btn')[1].textContent = 'German';
-    document.getElementsByClassName('btn')[2].textContent = 'French';
-    document.getElementsByClassName('btn')[3].textContent = 'Italian';
-    document.getElementsByClassName('btn')[4].textContent = 'Spanish';
-    document.getElementsByClassName('btn')[5].textContent = 'Slovak';
+    document.getElementsByClassName('btn')[1].textContent = 'Allemand';
+    document.getElementsByClassName('btn')[2].textContent = 'Français';
+    document.getElementsByClassName('btn')[3].textContent = 'Italien';
+    document.getElementsByClassName('btn')[4].textContent = 'Espagnol';
+    document.getElementsByClassName('btn')[5].textContent = 'Slovaque';
     //Explanation paragraph
-    document.getElementById('explain').textContent = '';
+    document.getElementById('explain').textContent = 'Essayez les différents schémas de couleurs en cliquant sur les boutons ci-dessus ou sur les cases ci-dessous.';
     //headings
     document.getElementById('headOne').textContent = 'Défaut';
     document.getElementById('headTwo').textContent = '2e schème';
