@@ -70,10 +70,10 @@ let standardLanguage = () => {
     document.getElementById('headFive').textContent = '5th Scheme';
     document.getElementById('headSix').textContent = '6th Scheme';
     //paragraphs
-    document.getElementById('paraOne').textContent ='This is the standard scheme on this page. Really uncolorful and sad.'
+    document.getElementById('paraOne').textContent ='This is the standard scheme on this page. Very uncolorful and sad.'
     document.getElementById('paraTwo').textContent ='When you click on this button the background-, and the font color is changing.'
     document.getElementById('paraThree').textContent ='This scheme displays the colors beige, black-brown and lightbrown.'
-    document.getElementById('paraFour').textContent ='Dark pine green, orange and light peach appears when you click on the foudrth button.'
+    document.getElementById('paraFour').textContent ='Dark pine green, orange and light peach appears when you click on the fourth button.'
     document.getElementById('paraFive').textContent ='Change the colors to raspberry and blue tones.'
     document.getElementById('paraSix').textContent ='Try the last color scheme on this page.'
     //attribut lang in html-tag
@@ -109,24 +109,31 @@ let german = () => {
 }
 
 let french = () => {
+    //buttons
+    document.getElementsByClassName('btn')[0].textContent = 'Défaut';
+    document.getElementsByClassName('btn')[1].textContent = 'German';
+    document.getElementsByClassName('btn')[2].textContent = 'French';
+    document.getElementsByClassName('btn')[3].textContent = 'Italian';
+    document.getElementsByClassName('btn')[4].textContent = 'Spanish';
+    document.getElementsByClassName('btn')[5].textContent = 'Slovak';
+    //Explanation paragraph
     document.getElementById('explain').textContent = '';
-
     //headings
-    document.getElementById('headOne').textContent = 'Standard';
-    document.getElementById('headTwo').textContent = '2. Schema';
-    document.getElementById('headThree').textContent = '3. Schema';
-    document.getElementById('headFour').textContent = '4. Schema';
-    document.getElementById('headFive').textContent = '5. Schema';
-    document.getElementById('headSix').textContent = '6. Schema';
+    document.getElementById('headOne').textContent = 'Défaut';
+    document.getElementById('headTwo').textContent = '2e schème';
+    document.getElementById('headThree').textContent = '3e schème';
+    document.getElementById('headFour').textContent = '4e schème';
+    document.getElementById('headFive').textContent = '5e schème';
+    document.getElementById('headSix').textContent = '6e schème';
     //paragraph
-    document.getElementById('paraOne').textContent =''
-    document.getElementById('paraTwo').textContent =''
-    document.getElementById('paraThree').textContent =''
-    document.getElementById('paraFour').textContent =''
-    document.getElementById('paraFive').textContent =''
-    document.getElementById('paraSix').textContent =''
+    document.getElementById('paraOne').textContent ='C\'est le schéma standard sur cette page. Très incolore et triste.'
+    document.getElementById('paraTwo').textContent ='Lorsque vous cliquez sur ce bouton, l\'arrière-plan et la couleur de la police changent.'
+    document.getElementById('paraThree').textContent ='Ce schéma affiche les couleurs beige, brun noir et brun clair.'
+    document.getElementById('paraFour').textContent ='Le vert pin foncé, l\'orange et la pêche claire apparaissent lorsque vous cliquez sur le quatrième bouton.'
+    document.getElementById('paraFive').textContent ='Changez les couleurs en tons de framboise et de bleu.'
+    document.getElementById('paraSix').textContent ='Essayez le dernier jeu de couleurs sur cette page.'
     //attribut lang in html-tag
-    html.setAttribute('lang', 'de');
+    html.setAttribute('lang', 'fr');
 }
 
 let italian = () => {
