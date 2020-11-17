@@ -64,11 +64,11 @@ let standardLanguage = () => {
     document.getElementById('explain').textContent = 'Try the different color schemes by clicking on the buttons above or on the boxes below.';
     //headings
     document.getElementById('headOne').textContent = 'Default';
-    document.getElementById('headTwo').textContent = '2nd Scheme';
-    document.getElementById('headThree').textContent = '3rd Scheme';
-    document.getElementById('headFour').textContent = '4th Scheme';
-    document.getElementById('headFive').textContent = '5th Scheme';
-    document.getElementById('headSix').textContent = '6th Scheme';
+    document.getElementById('headTwo').textContent = '2nd scheme';
+    document.getElementById('headThree').textContent = '3rd scheme';
+    document.getElementById('headFour').textContent = '4th scheme';
+    document.getElementById('headFive').textContent = '5th scheme';
+    document.getElementById('headSix').textContent = '6th scheme';
     //paragraphs
     document.getElementById('paraOne').textContent ='This is the standard scheme on this page. Very uncolorful and sad.'
     document.getElementById('paraTwo').textContent ='When you click on this button the background-, and the font color is changing.'
@@ -195,24 +195,32 @@ let spanish = () => {
 }
 
 let slovak = () => {
-    document.getElementById('explain').textContent = '';
+    //buttons
+    document.getElementsByClassName('btn')[0].textContent = 'Štandardné';
+    document.getElementsByClassName('btn')[1].textContent = 'Nemecky';
+    document.getElementsByClassName('btn')[2].textContent = 'Francúzsky';
+    document.getElementsByClassName('btn')[3].textContent = 'Taliansky';
+    document.getElementsByClassName('btn')[4].textContent = 'Španielsky';
+    document.getElementsByClassName('btn')[5].textContent = 'Slovák';
+    //Explanation paragraph
+    document.getElementById('explain').textContent = 'Vyskúšajte rôzne farebné schémy kliknutím na tlačidlá hore alebo na poliach nižšie.';
 
     //headings
-    document.getElementById('headOne').textContent = 'Standard';
-    document.getElementById('headTwo').textContent = '2. Schema';
-    document.getElementById('headThree').textContent = '3. Schema';
-    document.getElementById('headFour').textContent = '4. Schema';
-    document.getElementById('headFive').textContent = '5. Schema';
-    document.getElementById('headSix').textContent = '6. Schema';
+    document.getElementById('headOne').textContent = 'Štandardné';
+    document.getElementById('headTwo').textContent = '2. schéma';
+    document.getElementById('headThree').textContent = '3. schéma';
+    document.getElementById('headFour').textContent = '4. schéma';
+    document.getElementById('headFive').textContent = '5. schéma';
+    document.getElementById('headSix').textContent = '6. schéma';
     //paragraph
-    document.getElementById('paraOne').textContent ='';
-    document.getElementById('paraTwo').textContent ='';
-    document.getElementById('paraThree').textContent ='';
-    document.getElementById('paraFour').textContent ='';
-    document.getElementById('paraFive').textContent ='';
-    document.getElementById('paraSix').textContent ='';
+    document.getElementById('paraOne').textContent ='Toto je štandardná schéma na tejto stránke. Naozaj nefarebné a smutné.';
+    document.getElementById('paraTwo').textContent ='Po kliknutí na toto tlačidlo sa zmení pozadie a farba písma.';
+    document.getElementById('paraThree').textContent ='Táto schéma zobrazuje farby béžovej, čierno-hnedej a svetlohnedej.';
+    document.getElementById('paraFour').textContent ='Kliknutím na zelené tlačidlo sa objaví tmavo borovo zelená, oranžová a svetlo broskyňová.';
+    document.getElementById('paraFive').textContent ='Zmeňte farby na malinové a modré tóny.';
+    document.getElementById('paraSix').textContent ='Vyskúšajte poslednú farebnú schému na tejto stránke.';
     //attribut lang in html-tag
-    html.setAttribute('lang', 'de');
+    html.setAttribute('lang', 'sk');
 }
 
 
